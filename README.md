@@ -1,4 +1,4 @@
-画像をコピペ
+<img width="1356" alt="image" src="https://user-images.githubusercontent.com/99580997/221702659-ea37653a-a4c2-4fcf-af9d-698d4510353a.png">
 
 # compornent（共通部品）
 - 768px以上時（box4つ横並び）
