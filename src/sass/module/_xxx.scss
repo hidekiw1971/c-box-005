@@ -1,0 +1,22 @@
+@use "global" as *;
+
+.xxx {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: rem(1280);
+    width: 100%;
+    margin: rem(50) auto;
+
+    @include mq(md) {
+        // 
+    }
+
+}
+
+.xxx>figure {
+    flex-basis: 50%; // mobile時は横に2つ並べるので（100%/2=50%）に設定。
+
+    @include mq(md) {
+        flex-basis: 25%; // pc時は横に4つ並べるので(100%/4=25%)に設定。
+    }
+}
